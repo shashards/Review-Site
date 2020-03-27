@@ -61,12 +61,12 @@ app.use("/campgrounds", campgroundRoutes);
 
 // DEPLOYED CONNECTION
 
-// app.listen(process.env.PORT, process.env.IP, function(){
-//     console.log("The YelpCamp Server has started...");
-// });
+app.listen(process.env.PORT, process.env.IP, function(){
+    console.log("The YelpCamp Server has started...");
+});
 
 // LOCAL CONNECTION
 
-app.listen(3000, process.env.IP, function(){
-    console.log("The YelpCamp Server has started...");
-});
+// app.listen(3000, process.env.IP, function(){
+//     console.log("The YelpCamp Server has started...");
+// });
