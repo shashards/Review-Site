@@ -67,6 +67,6 @@ app.listen(process.env.PORT, process.env.IP, function(){
 
 // LOCAL CONNECTION
 
-app.listen(3000, process.env.IP, function(){
-    console.log("The YelpCamp Server has started...");
-});
+// app.listen(3000, process.env.IP, function(){
+//     console.log("The YelpCamp Server has started...");
+// });
